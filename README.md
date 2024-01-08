@@ -1,6 +1,21 @@
-# Elixir - Development Container
-![elixir logo](https://elixir-lang.org/images/logo/logo.png)
+# elixir devcontainer example
 
-Use with the Visual Studio (VS) Code **Remote - Containers** extension to create a full-featured Docker container development environment.  You can open any folder inside (or mounted into) a container and utilize VS Code.  A ***devcontainer.json*** file must be added to your project, instructing VS Code how to access (or create) a development container with a well-defined tool and runtime stack.  The container can be used to run an application or to separate tools, libraries, or runtimes needed for working with a codebase.
+An example project demonstrating elixir setpup in devcontainer with ElixirLS
 
-Workspace files are mounted from the local file system or copied or cloned into the container.  Extensions are installed and run inside the container, where they have full access to the tools, platform, and file system.  Thus, allowing you to seamlessly switch your entire development environment just by connecting to a different container.
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `abc` to your list of dependencies in `mix.exs`:
+
+```elixir
+def deps do
+  [
+    {:abc, "~> 0.1.0"}
+  ]
+end
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at <https://hexdocs.pm/abc>.
+
